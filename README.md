@@ -5,7 +5,7 @@ AdsScraper
 Can scrape avto.net, bolha.com, njuskalo.hr.
 
 
-0. Create config.json, example settings:
+1. Create config.json, example settings:
 ```json
 [
     {
@@ -73,7 +73,7 @@ Can scrape avto.net, bolha.com, njuskalo.hr.
     }
 ]
 ```    
-1. Create emailConf.js with following settings:
+2. Create emailConf.js with following settings:
 ```js
 //nodemailer settings
 module.exports = {
@@ -85,5 +85,5 @@ module.exports = {
     from: 'John Smith Automation <john.smith@gmail.com>'
 };
 ```
-2. Edit config.json to suit your needs.
-3. Run 'node main.js'
+3. Edit config.json to suit your needs.
+4. Run 'node main.js'
