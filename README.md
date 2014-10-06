@@ -75,7 +75,6 @@ Can scrape avto.net, bolha.com, njuskalo.hr.
 ```
     
 1. Create emailConf.js with following settings:
-
 ```js
 //nodemailer settings
 module.exports = {
@@ -87,7 +86,5 @@ module.exports = {
     from: 'John Smith Automation <john.smith@gmail.com>'
 };
 ```
-
 2. Edit config.json to suit your needs.
-
 3. Run 'node main.js'
