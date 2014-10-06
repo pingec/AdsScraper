@@ -72,8 +72,7 @@ Can scrape avto.net, bolha.com, njuskalo.hr.
         ]
     }
 ]
-```
-    
+```    
 1. Create emailConf.js with following settings:
 ```js
 //nodemailer settings
