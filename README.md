@@ -6,7 +6,7 @@ Can scrape avto.net, bolha.com, njuskalo.hr.
 
 
 0. Create config.json, example settings:
-```json
+```js
 [
     {
         "id": 1,
