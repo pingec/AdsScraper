@@ -15,10 +15,10 @@ var configPath = './config.json';
  * module.exports = {
  *    service : 'Gmail',
  *   auth : {
- *      user: 'pingec.automation@gmail.com',
- *        pass: 'automation1234'
+ *      user: 'john.smith@gmail.com',
+ *        pass: 'johnsmithspasword'
  *    },
- *    from: 'Pingec Automation <pingec.automation@gmail.com>'
+ *    from: 'J.S. Automation <john.smith@gmail.com>'
  * };
  */
 var email = require('./emailConf');
@@ -199,8 +199,8 @@ function sendEmail(subj, msg, receivers){
 
     // setup e-mail data with unicode symbols
     var mailOptions = {
-        from: email.From, //'Pingec Automation <pingec.automation@gmail.com>', // sender address
-        to: receivers.join(','),//'pinggo@gmail.com, pingec@gmail.com', // list of receivers
+        from: email.From, // sender address
+        to: receivers.join(','),// list of receivers
         subject: subj, // Subject line
         text: msg, // plaintext body
         html: msg // html body
