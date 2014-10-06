@@ -6,7 +6,7 @@ Can scrape avto.net, bolha.com, njuskalo.hr.
 
 
 0. Create config.json, example settings:
-```js
+```json
 [
     {
         "id": 1,
@@ -76,7 +76,7 @@ Can scrape avto.net, bolha.com, njuskalo.hr.
     
 1. Create emailConf.js with following settings:
 
-```json
+```js
 //nodemailer settings
 module.exports = {
     service : 'Gmail',
