@@ -160,7 +160,7 @@ function checkResults(results, conf, siteKind){
             });
 
             if(matchedKeywords.length > 0){
-                console.log('bingo! found new match... ' + e.titleLink );
+                console.log( Date.now() +  ' bingo! found new match... ' + e.titleLink + ' (' + siteKind + ')' );
                 newMatches.push(e);
             }
         }   
