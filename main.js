@@ -87,7 +87,7 @@ function bolha($){
 }
 function njuskalo($){
     var results = [];
-    $('.entity-item-data.cf').each(function(i,e){
+    $('.entity-body.cf:has(.entity-thumbnail)').each(function(i,e){
         e =  $(e);
         var title = e.find('.entity-title a').text();
         var titleLink = e.find('.entity-title a').attr('href');
