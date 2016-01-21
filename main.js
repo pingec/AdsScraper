@@ -47,8 +47,8 @@ function avtonet($){
         e =  $(e);
         var title = e.find('.ResultsAdData a').text();
         var titleLink = e.find('.ResultsAdData a').attr('href');
-        var imgSrc = e.find('.ResultsAdPhoto img').attr('src');
-        var imgLink = e.find('.ResultsAdPhoto a').attr('href');
+        var imgSrc = e.find('.ResultsAdPhoto img').attr('src') || e.find('.ResultsAdPhotoContainer img').attr('src');
+        var imgLink = e.find('.ResultsAdPhoto a').attr('href') || e.find('.ResultsAdPhotoContainer a').attr('href');
         var description = e.find('.ResultsAdData ul, .ResultsAdData p').text();            
         var priceEur = e.find('.ResultsAdPrice').text();
         priceEur = priceEur.trim().split(' ')[0].replace('.', '').replace(',', '.');
