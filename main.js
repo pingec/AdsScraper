@@ -69,7 +69,7 @@ function bolha($){
         e =  $(e);
         var title = e.find('.content a').text();
         var titleLink = e.find('.content a').attr('href');
-        var imgSrc = e.find('.image img').attr('src');
+        var imgSrc = e.find('.image *[data-original]').attr('data-original');
         var imgLink = e.find('.image a').attr('href');
         var description = e.find('.content').clone().children().remove().end().text();            
         var priceEur = e.find('.price').text();
