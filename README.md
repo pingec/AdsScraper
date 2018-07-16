@@ -71,6 +71,35 @@ Can scrape avto.net, bolha.com, njuskalo.hr.
             "subscribers": [
                 "subscriber2@gmail.com"
             ]
+        },
+        {
+            "id": 5,
+            "request": {
+                "url": "https://www.nepremicnine.net/javne-drazbe.html?s=16",
+                "proxy": null,
+                "headers": {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36"
+                }
+            },
+            "titleKeywords": [
+                "koper",
+                "markovec",
+                "izola",
+                "piran"
+            ],
+            "descriptionKeywords": [
+                "koper",
+                "markovec",
+                "izola",
+                "piran"
+            ],
+            "maxPrice": null,
+            "minPrice": null,
+            "minArea": null,
+            "maxArea": null,
+            "subscribers": [
+                "pinggo@gmail.com"
+            ]
         }
     ]
     ```    
