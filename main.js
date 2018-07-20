@@ -176,10 +176,10 @@ function scrape(conf) {
 function checkResults(results, conf, siteKind) {
     var newMatches = [];
     results.forEach(function (e) {
-        cache[conf.id] = cache[conf.id] || {};
+        cache[siteKind] = cache[siteKind] || {};
 
-        if (!cache[conf.id][e.titleLink]) {
-            cache[conf.id][e.titleLink] = e;
+        if (!cache[siteKind][e.titleLink]) {
+            cache[siteKind][e.titleLink] = e;
 
             if (conf.maxPrice && conf.maxPrice < e.priceEur)
                 return;
