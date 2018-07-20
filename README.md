@@ -2,7 +2,7 @@
 AdsScraper
 ============
 
-Can scrape avto.net, bolha.com, njuskalo.hr.
+Can scrape avto.net, bolha.com, njuskalo.hr and nepremicnine.net
 
 
 1. Create config.json, example settings:
@@ -98,7 +98,8 @@ Can scrape avto.net, bolha.com, njuskalo.hr.
             "minArea": null,
             "maxArea": null,
             "subscribers": [
-                "pinggo@gmail.com"
+                "subscriber2@gmail.com",
+                "subscriber3@gmail.com"
             ]
         }
     ]
